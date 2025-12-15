@@ -26,3 +26,13 @@ class User{
 
 let firdavs = new User('Firdavs', 17);
 console.log(firdavs)
+
+class Animal {
+    constructor(animalname, age){
+        this.name = animalname;
+        this.age = age;
+    }
+};
+
+let cat = new Animal('Mushuk', 1);
+console.log(cat)
